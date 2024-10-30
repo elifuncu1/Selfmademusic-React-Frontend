@@ -1,0 +1,204 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+header{
+   
+    background: url(/public/navbar.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    width:auto;
+    color: #eee;
+
+}
+@media (min-width: 640px) {
+  .sm\:bg-gradient {
+    background: rgb(43,40,28);
+    background: linear-gradient(180deg, rgba(43,40,28,1) 50%, rgba(238,202,77,1) 80%);
+  }
+}
+
+
+
+
+
+
+.divStyle{
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 25px;
+    background: none;
+}
+@media (max-width: 768px) {
+    .divStyle {
+      font-size: 10px;
+      text-align: center;
+    }
+    .logoStyle{
+        width: 20px;
+        background: none;
+      }
+    .navStyle{
+        display:none;
+    }
+    .active {
+        display: none;
+   
+    }
+    .passive{
+      display: none;
+    }
+
+    .insta__button {
+      background-color: transparent;
+      color: #fff;
+      width: 100px;
+      border: none;
+      padding: 10px;
+      font-size: 18px;
+      font-weight: bold;
+      cursor: pointer;
+      border: 1px solid white;
+      border-radius: 20px;
+    }
+    .contact__button {
+      background-color: white;
+      color: #695c2c;
+      border: none;
+      padding: 10px;
+      font-size: 18px;
+      width: 100px;
+      font-weight: bold;
+      cursor: pointer;
+      border-radius: 20px;
+    }
+    
+      .slider__button {
+        display: none;
+      }
+    
+    
+   
+
+
+  }
+
+.logoStyle{
+    width: 80px;
+    margin-left: 50px;
+    background: none;
+  }
+
+  .logoName{
+    background: none;
+    font-weight: bold;
+    color: #eee;
+    font-size: 1.5rem;
+    text-decoration: none;
+  }
+ .active {
+     border-bottom: 1px solid white;
+     padding-bottom: 5px;
+     background: none;
+     font-weight: bold;
+     color: #eee;
+     font-size: 1.5rem;
+     text-decoration: none;
+
+ }
+ .passive{
+    font-weight: bold;
+    color: #eee;
+    font-size: 1.5rem;
+    text-decoration: none;
+    padding-left: 85px;
+
+ }
+ 
+
+ 
+
+
+
+  .navStyle  {
+    display: flex;
+    justify-content:center; 
+    align-items: center;
+    margin-top: 5px;
+    margin-left: 20%;
+    background: none;
+    
+  };
+
+
+
+nav a{
+    margin: 0;
+    color: #eee;
+    font-weight: bold;
+    font-size: 1.5rem;
+    text-decoration: none;
+    background: none;
+}
+/* ... (mevcut stiller) ... */
+
+/* Hamburger ve kapatma ikonları için stiller */
+
+
+
+
+
+
+  
+  
+  .slider__button {
+    background-color: transparent;
+    color: #fff;
+    border: none;
+    padding: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  .insta__button {
+    background-color: transparent;
+    color: #fff;
+    width: 200px;
+    border: none;
+    padding: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    border: 1px solid white;
+    border-radius: 20px;
+  }
+  .contact__button {
+    background-color: white;
+    color: #695c2c;
+    border: none;
+    padding: 20px;
+    font-size: 18px;
+    width: 200px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 20px;
+  }
+  
+  .slider__button--prev {
+    margin-top: 400px;
+  }
+  
+  .slider__button--next {
+    margin-top: 400px;
+  }
+
+
+  
+
+
+
+
+  
